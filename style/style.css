@@ -49,13 +49,13 @@ table {
 }
 
 
-:root {
+/* :root {
     --primary-color: #B3FFAE;
     --secondary-color: #F8FFDB;
     --third-color: #FF6464;
     --fourth-color: #FF7D7D;
     --fifth-color: #FFD60A;
-}
+} */
 
 .navbar {
     background-color: black;
