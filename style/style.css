@@ -63,7 +63,7 @@ table {
 }
 
 *:hover { 
-    outline:1px blue solid;
+    outline:1px red solid;
   } 
 
 .jumbotron {
@@ -118,6 +118,31 @@ footer {
     font-size: 25px;
 }
 
-.img-fluid {
+
+.card {
+    width: 100%;
     height: 100%;
+}
+
+img {
+    max-width: 31%;
+    max-height: 50%;
+    object-fit: cover;
+}
+
+.main-section {
+    width: 100%;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.left-side {
+    padding: 2rem;
+}
+
+.right-side {
+    padding: 2rem;
 }
