@@ -62,6 +62,10 @@ table {
     padding: 20px;
 }
 
+*:hover { 
+    outline:1px blue solid;
+  } 
+
 .jumbotron {
     min-height: 500px;
     background-color: black;
@@ -69,9 +73,6 @@ table {
     margin-bottom: 0;
 }
 
-h1 {
-padding: 6rem;
-}
 
 .container-fluid {
     margin: 0;
@@ -111,4 +112,12 @@ footer {
     display: inline-block;
     margin: 10px;
     padding: 20px;
+}
+
+.current-role {
+    font-size: 25px;
+}
+
+.img-fluid {
+    height: 100%;
 }
