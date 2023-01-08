@@ -16,20 +16,20 @@
   <!-- Header -->
   <header>
     <nav class="navbar navbar-expand-sm">
-      <a class="navbar-brand" href="#">Ammocodes</a>
+      <a class="navbar-brand" href="#home">Ammocodes</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="#home">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#about-me">About Me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact Me</a>
+            <a class="nav-link" href="#contact-me">Contact Me</a>
           </li>
         </ul>
       </div>
@@ -38,107 +38,89 @@
 
   <main>
     <!-- My hero section -->
-    <hero>
-    <!-- Created a full width container -->
-    <div class="container-fluid main-section">
-      <!-- needs my picture, my name and any other information -->
-      <section id="#about-me">
-        <div class="jumbotron jumbotron-fluid">
-          <div class="container-fluid">
-            <div class="row">
-              <!-- column containing left side of the jumbotron -->
-              <div class="col-md-6 col-sm-12">
-                <div class="left-side">
-                <h1 class="display-6 text-center">Hi and welcome!</h1>
-                <p class="current-role text-center">My username is ammocodes</p>
-                <img src="images/grumps.jpg" class="rounded-circle" alt="" srcset="">
-                <img src="images/pc.png" alt="" class="rounded-circle">
+    <hero id="#home">
+      <!-- Created a full width container -->
+      <div class="container-fluid main-section">
+        <!-- needs my picture, my name and any other information -->
+        <section>
+          <div class="jumbotron jumbotron-fluid">
+            <div class="container-fluid">
+              <div class="row">
+                <!-- column containing left side of the jumbotron -->
+                <div class="col-md-6 col-sm-12">
+                  <div class="left-side">
+                    <h1 class="display-6 text-center p-2">Hi and welcome!</h1>
+                    <p class="current-role text-center p-2">My username is ammocodes</p>
+                    <img src="images/grumps.jpg" class="rounded-circle" alt="angry-cat" srcset="">
+                    <img src="images/pc.png" alt="devices" class="rounded-circle">
+                  </div>
 
-              </div>
-
-            </div>
-              <div class="col-md-6 col-sm-12 "> 
-                <div class="right-side">
-                <h1 class="display-6 text-center">Hm, I better study this stack.</h1>
-                <p id="current-date" class="current-role text-center">Hello</p>
-                <img src="images/css_5.png" alt="" class="rounded-circle">
-                <img src="images/html5.png" alt="" class="rounded-circle">
-                <img src="images/js.png" alt="" class="rounded-circle">
-              </div>
+                </div>
+                <div class="col-md-6 col-sm-12 ">
+                  <div class="right-side">
+                    <h1 class="display-6 text-center">Hm, I better study this stack.</h1>
+                    <p id="current-date" class="current-role text-center p-2"></p>
+                    <img src="images/css_5.png" alt="css" class="rounded-circle">
+                    <img src="images/html5.png" alt="html" class="rounded-circle">
+                    <img src="images/js.png" alt="js" class="rounded-circle">
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-    </div>
+      </div>
 
-    </section>
+      </section>
     </hero>
-  </main>
 
-  <!-- a section displaying my work in grid, use bootstrap cards for each project, description giving a brief overview of the work -->
-  <!-- a section with skills -->
-  <!-- about / contact section and about me section in the same row -->
-  <!-- <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-6">
-          <div class="p-3 mr-2">
-            <h2>About Me</h2>
-            <h5>Photo of me:</h5>
-            <div class="fakeimg">Fake Image</div>
-            <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-            <h3>Some Links</h3>
-            <p>Lorem ipsum dolor sit ame.</p>
-            <ul class="nav nav-pills flex-column">
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Active</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#">Disabled</a>
-              </li>
-            </ul>
-            <hr class="d-sm-none">
+
+    <!-- a section displaying my work in grid, use bootstrap cards for each project, description giving a brief overview of the work -->
+    <section id="#about-me">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+            <div class="card">
+              <img src="https://via.placeholder.com/150" class="card-img-top img-fluid" alt="Card image">
+              <div class="card-body">
+                <h3 class="card-title">This is a placeholder for future projects</h5>
+                  <p class="card-text">This will be the description for future projects</p>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="col-sm-6">
-          <div class="p-3 ml-2">
-            <h2>TITLE HEADING</h2>
-            <h5>Title description, Dec 7, 2017</h5>
-            <div class="fakeimg">Fake Image</div>
-            <p>Some text..</p>
-            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-              ullamco.</p>
-            <br>
-            <h2>TITLE HEADING</h2>
-            <h5>Title description, Sep 2, 2017</h5>
-            <div class="fakeimg">Fake Image</div>
-            <p>Some text..</p>
-            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-              ullamco.</p>
+          <div class="col-md-6 col-sm-12">
+            <div class="card">
+              <img src="https://via.placeholder.com/150" class="card-img-top img-fluid rounded" alt="Card image">
+              <div class="card-body">
+                <h3 class="card-title">This is a placeholder for future projects</h5>
+                  <p class="card-text">This will be the description for future projects</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </div> -->
+    </section>
+  </main>
 
   <!-- all hyperlinks should have a hover effect -->
   <!-- all buttons should display a box shadow upon hover -->
   <!-- bootstrap solution should minimize use of media queries -->
-  <footer class="footer">
-    <ul class="footer-links">
-      <li>Home</li>
-      <li>About Me</li>
-      <li>Contact Me</li>
-    </ul>
+  <footer class="navbar navbar-expand" id="#contact-me">
+    <div class="container">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about-me">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact-me">Contact</a>
+        </li>
+      </ul>
+    </div>
   </footer>
-<script src="script.js"></script>
+    
+  <script src="script.js"></script>
 </body>
 
 </html>
