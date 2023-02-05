@@ -1,6 +1,6 @@
-*:hover { 
+/* *:hover { 
     outline:1px red solid;
-} 
+}  */
 
 body {
     color: white;
@@ -45,4 +45,10 @@ footer {
     background-color: black;
 }
     
+#hero {
+    background-image: url("/images/bg.jpg")
+}
 
+.showcase {
+    background-image: url("/images/bg2.jpg");
+}
